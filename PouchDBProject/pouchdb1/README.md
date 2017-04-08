@@ -1,15 +1,16 @@
 # pouchdb1
 
-> A Vue.js project
+> First project abount PouchDB
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-npm install
+npm install simplehttpserver -g
 
-# serve with hot reload at localhost:8080
-npm run dev
+# serve with hot reload at localhost:8000
+simplehttpserver
+open browser and navigate to http://localhost:8000/
 
 # build for production with minification
 npm run build
@@ -17,5 +18,3 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
