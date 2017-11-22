@@ -1,4 +1,19 @@
+var ObjectID = require('mongodb').ObjectID;
+
 module.exports  = function (app, db) {
+
+    app.get('/api/notes/:id', (req, res) => {
+        const id = req.params.id;
+        const filter = { '_id': new ObjectID(id) };
+        db.collection('notes').findOne(filter, function (err, document) {
+            if (err) {
+                res.send({ 'error': 'An error has occurred'});
+            } else {
+                res.send(document);
+            }
+        });
+    });
+
     app.post('/api/notes', (req, res) => {
         console.log('body json');
         console.log(req.body);
@@ -15,6 +30,5 @@ module.exports  = function (app, db) {
                 res.send(results.ops[0]);
             }
         });
-        // res.send(note);
     });
 };

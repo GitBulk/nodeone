@@ -18,4 +18,3 @@ MongoClient.connect(db.connectionString, function (err, db) {
         console.log('Server started on port ' + port);
     });
 });
-
