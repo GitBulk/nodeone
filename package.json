@@ -1,0 +1,29 @@
+{
+  "name": "first_blood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitBulk/nodeone.git"
+  },
+  "author": "toantran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitBulk/nodeone/issues"
+  },
+  "homepage": "https://github.com/GitBulk/nodeone#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jshint": "^2.9.5",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
