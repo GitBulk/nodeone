@@ -5,16 +5,15 @@ const db = require('./config/db');
 const app = express();
 const port = 9000;
 
-app.use(bodyParser());
+app.use(bodyParser.urlencoded({ extended: true }));
 
-MongoClient.connect(db.connectionString, function (err, db) {
+MongoClient.connect(db.connectionString, function (err, database) {
     if (err) {
-        return console.log(err);
+        console.log(err);
+    } else {
+        require('./app/routes')(app, database);
+        app.listen(port, () => {
+            console.log('Server started on port ' + port);
+        });
     }
-
-    require('./app/routes')(app, db);
-
-    app.listen(port, () => {
-        console.log('Server started on port ' + port);
-    });
 });
