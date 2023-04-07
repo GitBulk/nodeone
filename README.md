@@ -56,4 +56,10 @@ npm start
 npm i express body-parser cookie-parser compression cors
 npm i @types/express @types/body-parser @types/cookie-parser @types/compression @types/cors
 
+npm install dotenv
+touch .env
+MONGO_URL="mongodb://127.0.0.1:27017/database_name"
+
+npm install mongoose
+npm install -D @types/mongoose
 
