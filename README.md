@@ -1,2 +1,3 @@
-Nodejs tutorial
-https://www.youtube.com/watch?v=JQfOtwfDohY&list=PLC3y8-rFHvwh8shCMHFA5kWxD9PaPwxaY&index=13&ab_channel=Codevolution
+The Complete Guide To Building A REST API With Node, Express, TypeScript & MongoDB + Authentication (1 hour)
+
+https://www.youtube.com/watch?v=b8ZUb_Okxro&ab_channel=CodeWithAntonio

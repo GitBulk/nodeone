@@ -1,0 +1,26 @@
+{
+  "name": "nodeone",
+  "version": "1.0.0",
+  "description": "The Complete Guide To Building A REST API With Node, Express, TypeScript & MongoDB + Authentication (1 hour)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitBulk/nodeone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitBulk/nodeone/issues"
+  },
+  "homepage": "https://github.com/GitBulk/nodeone#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  }
+}
