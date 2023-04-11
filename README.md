@@ -1,2 +1,14 @@
-Nodejs tutorial
-https://www.youtube.com/watch?v=JQfOtwfDohY&list=PLC3y8-rFHvwh8shCMHFA5kWxD9PaPwxaY&index=13&ab_channel=Codevolution
+# server, client integration
+server
+npm i express body-parser cookie-parser compression cors dotenv nodemon
+touch .env
+package.json
+```
+{
+  ...
+  "scripts": {
+    ...
+    "start": "nodemon index.js"
+  },
+  "type": "module"
+}
