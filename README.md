@@ -1,8 +1,9 @@
 # server, client integration
-server
-npm i express body-parser cookie-parser compression cors dotenv nodemon
-touch .env
-package.json
+server side:
+
+1. npm i express body-parser cookie-parser compression cors dotenv nodemon
+2. touch .env and config PORT
+3. package.json
 ```
 {
   ...
