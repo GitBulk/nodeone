@@ -4,6 +4,7 @@ import cookieParser from 'cookie-parser'
 import compression from 'compression'
 import cors from 'cors'
 import dotenv from 'dotenv'
+import workoutRoutes from './routes/workout.js';
 
 dotenv.config()
 const app = express()
@@ -12,6 +13,12 @@ app.use(compression())
 app.use(cookieParser())
 app.use(bodyParser.json())
 
+app.use((req, res, next) => {
+  console.log(req.path, req.method)
+  next()
+})
+
+app.use('/api/workouts', workoutRoutes)
 
 app.get("/", (request, response) => {
   response.json({ message: 'welcome to the app' })
