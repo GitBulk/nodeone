@@ -5,6 +5,7 @@ import compression from 'compression'
 import cors from 'cors'
 import dotenv from 'dotenv'
 import workoutRoutes from './routes/workout.js';
+import mongoose from 'mongoose'
 
 dotenv.config()
 const app = express()
@@ -24,6 +25,10 @@ app.get("/", (request, response) => {
   response.json({ message: 'welcome to the app' })
 })
 
-app.listen(process.env.PORT, () => {
-  console.log('server is running,', process.env.PORT)
+mongoose.connect(process.env.MONGO_URI).then(() => {
+  app.listen(process.env.PORT, () => {
+    console.log('server is running,', process.env.PORT)
+  })
+}).catch(error => {
+  console.log(error)
 })

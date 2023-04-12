@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=O8IipcpTmYU&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=5&ab_channel=TheNetNinja
+
 # server, client integration
 server side:
 
@@ -13,3 +15,4 @@ server side:
   },
   "type": "module"
 }
+4. npm i mongoose@5.X
