@@ -17,10 +17,16 @@ code {
     monospace;
 }
 
+.home {
+  display: flex;
+}
+
 .workouts {
   list-style: none;
   padding: 0;
   margin: 0;
+  width: 70%;
+  background-color: lightblue;
 }
 
 .workout-details {

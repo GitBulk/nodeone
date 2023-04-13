@@ -2,6 +2,7 @@ import './App.css'
 import WorkoutDetails from 'components/WorkoutDetails'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
+import WorkoutForm from 'components/WorkoutForm'
 
 function App() {
   const [workouts, setWorkouts] = useState(null)
@@ -29,6 +30,7 @@ function App() {
           <WorkoutDetails key={workout._id} workout={workout} />
         )}
       </ul>
+      <WorkoutForm />
     </div>
   )
 }
