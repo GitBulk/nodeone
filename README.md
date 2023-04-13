@@ -20,3 +20,5 @@ https://www.youtube.com/watch?v=O8IipcpTmYU&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLI
 
 **client side:**
 1. npx create-react-app client
+2. npm i axios
+3. modify package.json, add new key/value proxy: "http://localhost:3001" for development mode

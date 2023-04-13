@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +16,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.workouts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.workout-details {
+  align-items: center;
+  margin: 10px;
+}
+
+.workout-details h4 {
+  display: block;
+  font-weight: bold;
+  color: coral;
+}
+
+.workout-details p {
+  margin: 0;
+}
+
