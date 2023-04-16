@@ -5,7 +5,8 @@ import './index.css'
 import reportWebVitals from './reportWebVitals'
 // import Counter from 'components/Counter'
 // import FullName from 'components/FullName'
-import WindowSize from 'components/WindowSize'
+// import WindowSize from 'components/WindowSize'
+import UserStorage from 'components/UserStorage'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -13,7 +14,7 @@ root.render(
   //   <App />
   // </React.StrictMode>
   <React.StrictMode>
-    <WindowSize />
+    <UserStorage />
   </React.StrictMode>
 )
 

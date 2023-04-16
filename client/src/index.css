@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+.center-container {
+  text-align: center;
+  margin: 10px;
+}
+
 .counter {
   text-align: center;
   margin: 10px;
