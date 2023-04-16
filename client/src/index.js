@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals'
 // import Counter from 'components/Counter'
 // import FullName from 'components/FullName'
 // import WindowSize from 'components/WindowSize'
-import UserStorage from 'components/UserStorage'
+// import UserStorage from 'components/UserStorage'
+import TodoApp from 'components/TodoApp'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -14,7 +15,7 @@ root.render(
   //   <App />
   // </React.StrictMode>
   <React.StrictMode>
-    <UserStorage />
+    <TodoApp />
   </React.StrictMode>
 )
 
