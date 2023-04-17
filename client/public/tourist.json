@@ -1,0 +1,124 @@
+{
+  "tourist": [
+    {
+      "name": "NEIL ISLAND",
+      "info": "Neil Island is one of India’s Andaman Islands, in the Bay of Bengal. Bharatpur Beach has coral reefs teeming with tropical fish. Laxmanpur Beach is known for its sunset views. Howrah Bridge is a natural rock formation accessible at low tide. Near the island’s wharf is Neil Kendra village, with a curving, sandy bay dotted with boats. Off the southeast coast, the tiny Sir Hugh Rose Island is a sanctuary for turtles.",
+      "image": "https://uploads-ssl.webflow.com/5b56319971ac8c7475a9d877/5c4f5622a29a8f65c7f25f3e_IMG_7728%20Neil%20Island%20(21).jpg",
+      "location": "https://www.google.co.in/maps/place/Neill+Island,+Andaman+and+Nicobar+Islands+744104/data=!4m2!3m1!1s0x3088d9a13824c715:0xddd01ec98b4eb529?sa=X&ved=2ahUKEwjTjPqquvPlAhU56nMBHbmRBCAQ8gEwJXoECBAQBA"
+    },
+    {
+      "name": "CELLULAR JAIL,PORT BLAIR",
+      "info": "It has been an important historical part of Port Blair. Notable freedom fighters such as Veer Savarkar, Yogendra Shukla, Batukeshwar Dutt, and Babarao Savarkar were some of the inmates here. Don’t miss the light and sound show(Monday, Wednesday and Friday) when you visit Cellular jail. ",
+      "image": "https://www.holidify.com/images/cmsuploads/compressed/3616_20190213160612jpg",
+      "location": "https://www.google.co.in/maps/place/Cellular+Jail+National+Monument/@11.6738247,92.7479768,15z/data=!4m2!3m1!1s0x0:0x616a8c6623fdba3f?sa=X&ved=2ahUKEwihqtPEuvPlAhU4IbcAHThdBsAQ_BIwJnoECA4QCA"
+    },
+    {
+      "name": "CORBYN'S COVE,PORT BLAIR",
+      "info": "Surrounded by lush green palms, this happens to be one of the busier beaches in the Andamans. It’s located right outside of Port Blair about 8 km. The drive there itself is a scenic treat to the eyes.",
+      "image": "https://live.staticflickr.com/982/40047849690_7a78e1f816_b.jpg",
+      "location": "https://www.google.co.in/maps/place/Corbyn+Cove+Beach/@11.6449942,92.7458387,17z/data=!3m1!4b1!4m5!3m4!1s0x308894fccfdb049d:0x60d5e3776ddced65!8m2!3d11.6449942!4d92.7480274"
+    },
+    {
+      "name": "SAMUDRIKA NAVAL MARINE MUSEUM,PORT BLAIR",
+      "info": "This museum is a perfect blend of historical and modern Andaman. A massive blue whale, in its skeletal form, of course, greets you as you enter the museum. There is also an aquarium with fish of all shapes and sizes, from a parrotfish to the rare and venomous species of stonefish and corals.",
+      "image": "https://andamantripadvisor.in/files/social/social_b18e537c1984e883f43807737a639be4.jpg",
+      "location": "https://www.google.co.in/maps/place/Samudrika+Marine+Museum/@11.6718057,92.7263692,15z/data=!4m2!3m1!1s0x0:0xd7352994a1c32fb8?sa=X&ved=2ahUKEwi64_yEu_PlAhWMILcAHYtnBf0Q_BIwC3oECBAQCA"
+    },
+    {
+      "name": "HAVELOCK ISLAND(SWARAJ DWEEP)",
+      "info": "Havelock Island is part of Ritchie’s Archipelago, in India’s Andaman Islands. It’s known for its dive sites and beaches, like Elephant Beach, with its coral reefs. Crescent-shaped Radhanagar Beach is a popular spot for watching the sunset. On the island’s east side, rocky sections mark long, tree-lined Vijaynagar Beach.",
+      "image": "https://www.tripsavvy.com/thmb/SF7NoKaUPvXKxBkDbmPrC-GSddU=/2121x1414/filters:fill(auto,1)/GettyImages-508601155-592e840f5f9b5859500d0724.jpg",
+      "location": "https://www.google.co.in/maps/place/Swaraj+Dweep/@11.9656084,92.9194242,12z/data=!3m1!4b1!4m5!3m4!1s0x3088d3d85e0fe039:0x25c8aaaa513ef4bf!8m2!3d11.9760503!4d92.9875565"
+    },
+    {
+      "name": "GOLDEN TEMPLE",
+      "info": "The Golden Temple, also known as Harmandir Sahib or Darbār Sahib, is a Gurdwara located in the city of Amritsar, Punjab, India. It is the holiest Gurdwara and the most important pilgrimage site of Sikhism.The temple is built around a man-made pool (sarovar) that was completed by Guru Ram Das in 1577.Guru Arjan – the fifth Guru of Sikhism, requested Sai Mian Mir – a Muslim Pir of Lahore to lay its foundation stone in 1589.In 1604, Guru Arjan placed a copy of the Adi Granth in Harmandir Sahib, calling the site Ath Sath Tirath (lit. shrine of 68 pilgrimages).The temple was repeatedly rebuilt by the Sikhs after it became a target of persecution and was destroyed several times by the Muslim armies from Afghanistan and the Mughal Empire.The army led by Ahmad Shah Abdali, for example, demolished it in 1757 and again in 1762, then filled the pool with garbage and blood of cows.Maharaja Ranjit Singh after founding the Sikh Empire, rebuilt it in marble and copper in 1809, overlaid the sanctum with gold foil in 1830. This has led to the name the Golden Temple.",
+      "image": "https://iptb.b-cdn.net/wp-content/uploads/2018/07/Golden-Temple-Punjab-1.jpg",
+      "location": "https://www.google.co.in/maps/place/Harmandir+Sahib/@31.6199803,74.8764849,15z/data=!4m5!3m4!1s0x0:0x604384897626248e!8m2!3d31.6199803!4d74.8764849"
+    },
+    {
+      "name": "WAGAH BORDER",
+      "info": "Located at a distance of 22 km from Lahore and 28 km from Amritsar, Wagah Border marks the boundaries between Indian and Pakistani borders. It runs along the Grand Trunk Road between Amritsar in Punjab, India, and Punjab in Lahore, Pakistan. People from all over the country visit this place to witness the Beating Retreat Ceremony that is held every day before sunset. This ceremony includes the closing of the international gates and lowering the flags of both countries. It is a spectacle to be witnessed and is an occasion where the heart of every Indian is filled with pride and enthusiasm. The flag ceremony has been conducted by the Indian Border Security Force and Pakistan Rangers since 1959.Every evening, just before the sunset, the soldiers from the Indian and Pakistan military meet at this border post to engage in a 30-minute display of military camaraderie and showmanship. Officially, the purpose of the ceremony is to formally close the border for the night and lower the national flag. However, it is an entertainment ceremony and a  display of national pride for the thousands of people who come here every day. During the build-up to the ceremony, the crowd engages in chanting the Indian national anthem, rounds of applause and Bollywood-style dancing on Hindi songs.",
+      "image": "https://m.economictimes.com/thumb/msid-68217133,width-1200,height-900,resizemode-4,imgsize-703119/daily-retreat-ceremony-along-attari-wagah-border-cancelled-bsf.jpg",
+      "location": "https://www.google.co.in/maps/place/Wagah/@31.604757,74.574136,15z/data=!4m2!3m1!1s0x0:0x325315a52b19a1a9?sa=X&ved=2ahUKEwiupo-auvPlAhVL6XMBHYYYC8UQ_BIwJHoECA4QCA"
+    },
+    {
+      "name": "JALLIANWALA BAGH",
+      "info": "Jallianwala Bagh is a historic garden and ‘memorial of national importance’ in Amritsar, India, preserved in the memory of those wounded and killed in the Jallianwala Bagh Massacre that occurred on the site on the festival of Vaisakhi, 13 April 1919.It houses a museum, gallery and a number of memorial structures.The 7-acre (28,000 m2) garden site of the massacre is located in the vicinity of the Golden Temple complex, the holiest shrine of Sikhism and is managed by the Jallianwala Bagh National Memorial Trust, which was established as per the 'Jallianwala Bagh National Memorial Act, 1951'.",
+      "image": "https://m.telegraphindia.com/unsafe/620x350/smart/static.telegraphindia.com/derivative/THE_TELEGRAPH/1688144/16X9/image93c380cd-0486-4cc0-90e0-865235d0ac34.jpg",
+      "location": "https://www.google.co.in/maps/place/Jallianwala+Bagh/@31.0529259,74.7523128,8z/data=!4m5!3m4!1s0x0:0xcb013976169cb75b!8m2!3d31.6206437!4d74.8801088"
+    },
+    {
+      "name": "BHAKRA NANGAL DAM",
+      "info": "Bhakra Dam is a concrete gravity dam on the Sutlej River in Bilaspur, Himachal Pradesh in northern India. The dam forms the Gobind Sagar reservoir.The dam, located at a gorge near the (now submerged) upstream Bhakra village in Bilaspur district of Himachal Pradesh of height 226 m. The length of the dam (measured from the road above it) is 518.25 m and the width is 9.1 m. Its reservoir known as 'Gobind Sagar' stores up to 9.34 billion cubic metres of water. The 90 km long reservoir created by the Bhakra Dam is spread over an area of 168.35 km2. In terms of quantity of water, it is the third largest reservoir in India, the first being Indira Sagar dam in Madhya Pradesh with capacity of 12.22 billion cu m and second Nagarjunasagar Dam.",
+      "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/201810/dam647_081117121907_1-x404.jpg?9FIZpe39SqXGiX7EIroLsVdcLWjDaUeV",
+      "location": "https://www.google.co.in/maps/place/Bhakhra+Dam/@31.4111964,76.4334066,15z/data=!4m5!3m4!1s0x0:0x7cb91e54289880ac!8m2!3d31.4111964!4d76.4334066"
+    },
+    {
+      "name": "SUKHNA LAKE",
+      "info": "Sukhna Lake in Chandigarh, India, is a reservoir at the foothills (Shivalik hills) of the Himalayas. This 3 km² rainfed lake was created in 1958 by damming the Sukhna Choe, a seasonal stream coming down from the Shivalik Hills. Originally the seasonal flow entered the lake directly causing heavy siltation. To check the inflow of silt, 25.42 km² of land was acquired in the catchment area and put under vegetation. In 1974, the Choe was diverted and made to bypass the lake completely, the lake being fed by three siltation pots, minimising the entry of silt into the lake itself.",
+      "image": "https://www.trawell.in/admin/images/upload/472763834Chandigarh_Sukhna_Lake_Main.jpg",
+      "location": "https://www.google.co.in/maps/place/Sukhna+Lake/@30.742074,76.8039478,14z/data=!3m1!4b1!4m5!3m4!1s0x390fed34138d9147:0x8a7a0db7c410d5a2!8m2!3d30.7421379!4d76.8187557"
+    },
+    {
+      "name": "SHAHPUR KANDI FORT ",
+      "info": "The Shahpur Kandi Fort, named after Shah Jahan, nestles on the banks of the Ravi River in the picturesque foothills of the Himalayas. Located on the outer periphery of Pathankot, it was built in the 16th century, and stands surrounded by outstanding natural beauty. A part of the fort functions as a rest house today.Shahpur Kandi fort is located 7Kms from Pathankot and presently it has been converted into a beautiful rest house. It is named after Shah Jahan and was built by Bhao Singh in 16th Century. It is majestically located on the banks of river Ravi. There are a few small heritage monuments like tombs and a mosque.",
+      "image": "https://assets.traveltriangle.com/blog/wp-content/uploads/2019/09/Nurpur-Fort.jpg",
+      "location": "https://www.google.co.in/maps/place/Shahpurkandi+Fort/@32.3876397,75.6833134,15z/data=!4m2!3m1!1s0x0:0xba3db5cd0bf52e84?sa=X&ved=2ahUKEwjcsKHxufPlAhWq8HMBHYWrCaMQ_BIwE3oECAsQCA"
+    },
+    {
+      "name": "Jaipur",
+      "info": "Planned by Vidyadhar Bhattacharya, Jaipur holds the distinction of being the first planned city of India. Renowned globally for its coloured gems, the capital city of Rajasthan combines the allure of its ancient history with all the advantages of a metropolis. The bustling modern city is one of the three corners of the golden triangle that includes Delhi, Agra and Jaipur.The story goes that in 1876, the Prince of Wales visited India on a tour. Since the colour pink was symbolic of hospitality, Maharaja Ram Singh of Jaipur painted the entire city pink. The pink that colours the city makes for a marvellous spectacle to behold. Jaipur rises up majestically against the backdrop of the forts Nahargarh, Jaigarh and Garh Ganesh Temple.",
+      "image": "https://images.thrillophilia.com/image/upload/s--QrPjqNho--/c_fill,f_auto,fl_strip_profile,h_775,q_auto,w_1600/v1/images/photos/000/046/475/original/1525775826_Jaipur_Main.jpg.jpg?1525775826",
+      "location": "https://www.google.co.in/maps/place/Jaipur,+Rajasthan/@26.8851417,75.6504723,11z/data=!3m1!4b1!4m5!3m4!1s0x396c4adf4c57e281:0xce1c63a0cf22e09!8m2!3d26.9124336!4d75.7872709"
+    },
+    {
+      "name": "Amber Palace",
+      "info": "Amber (pronounced Amer) is at a distance of about 11 kilometres from Jaipur. Now a UNESCO World Heritage Site, it was the bastion of the Kachwahas of Amber, until the capital was moved to the plains, to what is today Jaipur. The palace, located in craggy hills, is a beautiful melange of Hindu and Mughal styles. Raja Man Singh I began construction in 1592 and the palace, which was built as a strong, safe haven against attacking enemies, was completed by Mirja Raja Jai Singh.",
+      "image": "https://images.thrillophilia.com/image/upload/s--UGQa1Iny--/c_fill,f_auto,fl_strip_profile,h_600,q_auto,w_975/v1/images/photos/000/110/813/original/1492513727_amber_fort_4.jpg.jpg?1492513727",
+      "location": "https://www.google.co.in/maps/place/Amber+Palace/@26.9854865,75.8513454,15z/data=!4m5!3m4!1s0x0:0x6221df6747147e2b!8m2!3d26.9854865!4d75.8513454"
+    },
+    {
+      "name": "Jantar Mantar",
+      "info": "Now a UNESCO World Heritage Site, Jantar Mantar in Jaipur is considered to be the largest of the five astronomical observatories built by Maharaja Sawai Jai Singh II, the founder of Jaipur. It contains sixteen geometric devices, designed to measure time, track celestial bodies and observe the orbits of the planets around the sun.",
+      "image": "https://cdn1.goibibo.com/t_tg_fs/jaipur-jantar-mantar-148133403933-orijgp.jpg",
+      "location": "https://www.google.co.in/maps/place/Amber+Palace/@26.9854865,75.8513454,15z/data=!4m2!3m1!1s0x0:0x6221df6747147e2b?sa=X&ved=2ahUKEwjnp4SljfjlAhVy7XMBHZF7CYwQ_BIwH3oECCkQCA"
+    },
+    {
+      "name": "Hawa Mahal",
+      "info": "Hawa Mahal, literally the Palace of Winds, was built in 1799 by the poet king Sawai Pratap Singh as a summer retreat for him and his family. It also served as a place where the ladies of the royal household could observe everyday life without being seen themselves. This unique five-storey structure is a blend of Hindu and Islamic architecture, and the exterior, with its small latticed windows (called jharokhas), resembles the crown of Lord Krishna. The windows also serve as an air-conditioner of sorts, blowing cool air throughout the palace, making it the perfect retreat during summers.",
+      "image": "https://static.toiimg.com/photo/50355399/.jpg",
+      "location": "https://www.google.co.in/maps/place/Hawa+Mahal/@26.9239363,75.8267438,15z/data=!4m2!3m1!1s0x0:0x860e5d531eccb20c?sa=X&ved=2ahUKEwiOlby_jfjlAhV_7XMBHZ8cAgoQ_BIwH3oECA0QCA"
+    },
+    {
+      "name": "Albert Hall Museum(Central  Museum)",
+      "info": "The building gets its name from The Victoria and Albert Museum in London, the inspiration for its design. The exquisitely built Albert Hall is housed in the centre of Ram Niwas Garden. Sir Swinton Jacob conceptualised and designed it using styles from the Indo-Sarcenic architecture and the Prince of Wales laid the foundation stone of the building in 1876.",
+      "image": "https://live.staticflickr.com/2845/12542763994_d8b41967a3_b.jpg",
+      "location": "https://www.google.co.in/maps/place/Albert+Hall+Museum/@26.9115755,75.8194875,15z/data=!4m2!3m1!1s0x0:0x5bb4333133c6968?sa=X&ved=2ahUKEwif6p7qjfjlAhXX6nMBHTSzBt8Q_BIwHXoECBQQCA"
+    },
+    {
+      "name": "Jal Mahal",
+      "info": "One of the most wonderful sights in Jaipur is the beautiful Jal Mahal or Lake Palace. The light, sand coloured stone walls and the deep blue of the water make for a wonderful contrast. The palace appears to float in the centre of Man Sagar Lake, where its magnificent exteriors can be enjoyed by tourists.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Jal_Mahal_in_Man_Sagar_Lake.jpg",
+      "location": "https://www.google.co.in/maps/place/Jal+Mahal/@30.7925977,76.9116041,15z/data=!4m5!3m4!1s0x0:0x8baca857b9f1b33d!8m2!3d30.7925977!4d76.9116041"
+    },
+    {
+      "name": "Chittorgarh Fort",
+      "info": "The Chittor Fort or Chittorgarh is one of the largest forts in India. It is a UNESCO World Heritage Site. The fort was the capital of Mewar and is located in the present-day town of Chittor. It sprawls over a hill 180 m in height spread over an area of 280 ha above the plains of the valley drained by the Berach River.",
+      "image": "https://www.chittorgarh.com/images/chittorgarh_fort.jpg",
+      "location": "https://www.google.co.in/maps/place/Chittorgarh+Fort/@24.8878991,74.6450926,15z/data=!4m5!3m4!1s0x0:0x4ef923088d726382!8m2!3d24.8878991!4d74.6450926"
+    },
+    {
+      "name": "The Ajmer Sharif Dargah",
+      "info": "This is a Sufi shrine which encloses the ‘maqbara’ (grave) of Garib Nawaz, the Sufi saint Khwaja Moinuddin Chisti. Built in the 13th century, the shrine is popular among people of all faiths who flock here to have their prayers answered. ",
+      "image": "https://resources.thomascook.in/images/holidays/sightSeeing/ajmerdargha.jpg",
+      "location": "https://www.google.co.in/maps/place/Khawaja+Gharib+Nawaz/@26.4561878,74.628106,15z/data=!4m5!3m4!1s0x0:0x17da9f02930d903b!8m2!3d26.4561878!4d74.628106"
+    },
+    {
+      "name": "Jaisalmer fort",
+      "info": "Jaisalmer Fort is situated in the city of Jaisalmer, in the Indian state of Rajasthan. It is believed to be one of the very few \"living forts\" in the world (such as Carcassonne, France), as nearly one fourth of the old city's population still resides within the fort.For the better part of its 800-year history, the fort was the city of Jaisalmer. The first settlements outside the fort walls, to accommodate the growing population of Jaisalmer, are said to have come up in the 17th century.",
+      "image": "http://www.rajasthantourplanner.com/blog/wp-content/uploads/2016/08/jaisalmer-fort-1024x654.jpg",
+      "location": "https://www.google.co.in/maps/place/Jaisalmer+fort/@26.9128394,70.9130454,15z/data=!4m2!3m1!1s0x0:0xc75a821a459f586?sa=X&ved=2ahUKEwjbrseGj_jlAhW773MBHaWHAgcQ_BIwJ3oECCQQCA"
+    }
+  ]
+}
