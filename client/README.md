@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Support react router demo
+### `npm install react-router-dom localforage match-sorter sort-by`
+
 ## Available Scripts
 
 In the project directory, you can run:
