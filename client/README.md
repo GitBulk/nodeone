@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Config absolute path
+1. create jsconfig.json at root path
+```
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"]
+}
+```
+
 ## Support react router demo
 ### `npm install react-router-dom localforage match-sorter sort-by`
 
