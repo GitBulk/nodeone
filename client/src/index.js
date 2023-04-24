@@ -8,7 +8,8 @@ import reportWebVitals from './reportWebVitals'
 // import WindowSize from 'components/WindowSize'
 // import UserStorage from 'components/UserStorage'
 // import TodoApp from 'components/TodoApp'
-import Main from 'components/use_state_samples/Main'
+// import Main from 'components/use_state_samples/Main'
+import Main from 'components/use_transition_samples/Main'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
