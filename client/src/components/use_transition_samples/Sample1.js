@@ -6,6 +6,7 @@ export default function Sample1() {
   const [list, setList] = useState([])
   const [isPending, startTransition] = useTransition()
   const studentNames = useMemo(() => {
+    console.log('memo students')
     return db
   }, [])
 
@@ -25,7 +26,15 @@ export default function Sample1() {
   return (
     <div className='center-container'>
       <div>Student name <input type='text' value={input} onChange={handleOnChange} /></div>
-      {isPending ? 'Searching ...' : list.map((value, index) => <StudentItem key={index} studentName={value} highlight={input} />)}
+      {isPending ? 'Searching ...' : <StudentList data={list} queryStudentName={input} />}
+    </div>
+  )
+}
+
+function StudentList({ data, queryStudentName }) {
+  return (
+    <div>
+      {data.map((value, index) => <StudentItem key={index} studentName={value} highlight={queryStudentName} />)}
     </div>
   )
 }
