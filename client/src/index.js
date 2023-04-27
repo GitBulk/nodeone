@@ -10,8 +10,8 @@ import reportWebVitals from './reportWebVitals'
 // import TodoApp from 'components/TodoApp'
 // import Main from 'components/use_state_samples/Main'
 // import Main from 'components/use_transition_samples/Main'
-// import Main from 'components/use_effect_samples/Main'
-import ToggleTheme from 'components/ToggleTheme'
+import Main from 'components/use_effect_samples/Main'
+// import ToggleTheme from 'components/ToggleTheme'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -19,7 +19,7 @@ root.render(
   //   <App />
   // </React.StrictMode>
   <React.StrictMode>
-    <ToggleTheme />
+    <Main />
   </React.StrictMode>
 )
 
