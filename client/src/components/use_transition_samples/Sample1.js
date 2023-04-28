@@ -24,8 +24,19 @@ export default function Sample1() {
   }
 
   return (
-    <div className='center-container'>
-      <div>Student name <input type='text' value={input} onChange={handleOnChange} /></div>
+    <div style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      margin: 'auto',
+      padding: '10px',
+      width: '500px'
+    }}>
+      <div>
+        <div className='ui input'>
+          <input type='text' value={input} onChange={handleOnChange} placeholder='Enter student name' />
+        </div>
+      </div>
       {isPending ? 'Searching ...' : <StudentList data={list} queryStudentName={input} />}
     </div>
   )
@@ -33,9 +44,9 @@ export default function Sample1() {
 
 function StudentList({ data, queryStudentName }) {
   return (
-    <div>
+    <ol className='ui list'>
       {data.map((value, index) => <StudentItem key={index} studentName={value} highlight={queryStudentName} />)}
-    </div>
+    </ol>
   )
 }
 
@@ -45,12 +56,14 @@ function StudentItem({ studentName, highlight }) {
     return <div>{studentName}</div>;
   }
   return (
-    <div>
-      {studentName.slice(0, index)}
-      <span style={{ backgroundColor: 'yellowgreen' }}>
-        {studentName.slice(index, index + highlight.length)}
-      </span>
-      {studentName.slice(index + highlight.length)}
-    </div>
+    <li>
+      <div>
+        <span>{studentName.slice(0, index)}</span>
+        <span style={{ backgroundColor: 'yellowgreen' }}>
+          {studentName.slice(index, index + highlight.length)}
+        </span>
+        <span>{studentName.slice(index + highlight.length)}</span>
+      </div>
+    </li>
   )
 }
