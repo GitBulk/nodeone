@@ -1,15 +1,25 @@
-import { useMemo, useState, useTransition } from 'react'
+import { useEffect, useState, useTransition } from 'react'
 import { users } from 'mocks/users'
 
 export default function Sample2() {
   const [input, setInput] = useState('')
-  const keys = ['first_name', 'last_name', 'email']
+  const [searchResult, setSearchResult] = useState([])
+  const [isPending, startTransition] = useTransition()
 
-  function search(users) {
-    const query = input.toLowerCase()
-    return users.filter((user) => keys.some((key) => user[key].toLowerCase().includes(query)))
-  }
+  useEffect(() => {
+    console.log('run use effect')
+    if (input.length === 0 || input.length >= 2) {
+      console.log('filtering data')
+      const query = input.toLowerCase()
+      const keys = ['first_name', 'last_name', 'email']
+      startTransition(() => {
+        const filteredUsers = users.filter((user) => keys.some((key) => user[key].toLowerCase().includes(query)))
+        setSearchResult(filteredUsers)
+      })
+    }
+  }, [input])
 
+  console.log('is pending', isPending)
   return (
     <div style={{
       display: 'flex',
@@ -23,14 +33,14 @@ export default function Sample2() {
           <input type='text' value={input} onChange={(e) => setInput(e.target.value)} placeholder='Enter student name' />
         </div>
       </div>
-      {/* {isPending ? 'Searching ...' : <StudentList data={list} queryStudentName={input} />} */}
-      <StudentList data={search(users)} />
+      {/* {isPending && 'Searching ...'}
+      {searchResult.length > 0 ? <StudentList data={searchResult} /> : null} */}
+      {isPending ? 'Searching ...' : <StudentList data={searchResult} /> }
     </div>
   )
 }
 
 function StudentList({ data }) {
-  console.log('sample data', data[0])
   return (
     <table className='ui celled table' style={{ width: '600px' }}>
       <thead>

@@ -13,6 +13,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 }
 ```
 
+## install semantic ui
+1. npm install semantic-ui-react semantic-ui-css
+
 ## Support react router demo
 ### `npm install react-router-dom localforage match-sorter sort-by`
 
