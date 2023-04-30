@@ -1,8 +1,8 @@
-// import Sample1 from './Sample1'
-import Weather from './Weather'
+import Sample2 from './Sample2'
+// import Weather from './Weather'
 
 export default function Main() {
   return (
-    <Weather />
+    <Sample2 />
   )
 }
