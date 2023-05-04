@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import utilStyles from '../styles/utils.module.css'
-import Layout, { siteTitle } from '../components/Layout'
+import Layout, { siteTitle } from '@components/layout'
 
 export default function Home() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>{siteTitle}</title>
       </Head>
