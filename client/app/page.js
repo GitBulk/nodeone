@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Posts from './components/Posts'
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
           I am <span className='font-bold'>Kaka</span>
         </span>
       </p>
+      <Posts />
     </main>
   )
 }
