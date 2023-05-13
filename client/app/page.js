@@ -1,6 +1,6 @@
-import ExampleClientComponent from "./components/ExampleClientComponent"
-import ExampleServerComponent from "./components/ExampleServerComponent"
-import FetchingDataSample1 from "./components/FetchingDataSample1"
+import FetchingDataSample1 from "@/components/FetchingDataSample1"
+import ExampleClientComponent from "@/components/ExampleClientComponent"
+import ExampleServerComponent from "@/components/ExampleServerComponent"
 
 export default function Page() {
   return (
