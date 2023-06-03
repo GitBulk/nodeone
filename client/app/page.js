@@ -1,15 +1,7 @@
-import Posts from './components/Posts'
-
-export default function Home() {
+export default function Page() {
   return (
-    <main className='px-6 mx-auto'>
-      <p className='mt-12 mb-12 text-3xl text-center dark:text-white'>
-        Hello and welcome 👋 &nbsp;
-        <span className='whitespace-nowrap'>
-          I am <span className='font-bold'>Kaka</span>
-        </span>
-      </p>
-      <Posts />
+    <main className="flex items-center justify-center h-screen">
+      <h1 className="text-3xl">hello from boilerplate!</h1>
     </main>
   )
 }
