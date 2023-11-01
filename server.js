@@ -1,5 +1,5 @@
 import app from './src/app.js'
-const PORT = 4231
+const PORT = process.env.PORT || 4231
 const server = app.listen(PORT, () => {
   console.log(`hello nodejs, port ${PORT}`)
 })

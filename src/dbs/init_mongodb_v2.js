@@ -1,7 +1,6 @@
 import mongoose from 'mongoose'
 import { countConnection } from '../helpers/check_connect.js'
-
-const connectionString = 'mongodb://localhost:27017/shop_dev'
+// import config from '../configs/mongodb.js'
 
 class Database {
   constructor() {
@@ -18,7 +17,7 @@ class Database {
       mongoose.set('debug', { color: true})
     }
 
-    await mongoose.connect(connectionString, { maxPoolSize: 50 })
+    await mongoose.connect(process.env.DB_CONNECTION_STRING, { maxPoolSize: 50 })
     console.log('Connected mongodb successully')
     countConnection()
   }
