@@ -4,7 +4,7 @@ import process from 'process'
 
 const countConnection = () => {
   const numOfConnection = mongoose.connections.length
-  console.log(`Number of conenction: ${numOfConnection}`)
+  console.log(`Number of connection: ${numOfConnection}`)
 }
 const checkOverload = () => {
   setInterval(() => {

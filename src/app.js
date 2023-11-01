@@ -8,7 +8,7 @@ import morgan from 'morgan'
 import helmet from 'helmet'
 import compression from 'compression'
 // import _ from './dbs/init_mongodb_level0.js'
-import {} from './dbs/init_mongodb.js'
+import instanceMongodb from './dbs/init_mongodb_v2.js'
 
 const app = express()
 // init middleware
@@ -17,6 +17,8 @@ app.use(helmet())
 app.use(compression())
 
 // init db
+const db = await instanceMongodb.getDb()
+
 import { checkOverload } from './helpers/check_connect.js'
 checkOverload()
 
