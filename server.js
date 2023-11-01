@@ -5,5 +5,5 @@ const server = app.listen(PORT, () => {
 })
 
 process.on('SIGINT', () => {
-  server.close(() => console.log('exit server express'))
+  server.close(() => console.log('exit server express, bye'))
 })

@@ -11,3 +11,5 @@ npm i morgan --save-dev
 npm i helmet --save-dev
 
 npm i compression
+
+npm i mongoose
