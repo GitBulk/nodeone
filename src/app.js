@@ -5,6 +5,8 @@ import { userRouter } from './routers/index.js'
 dotenv.config()
 const app = express()
 
+app.use(express.json())
+
 // routers
 app.use('/users', userRouter)
 
