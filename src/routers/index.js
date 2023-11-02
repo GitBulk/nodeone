@@ -1,5 +1,6 @@
 import userRouter from './users.js'
 
 export {
-  userRouter
+  userRouter,
+  // add routers below
 }
