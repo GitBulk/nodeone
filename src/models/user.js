@@ -51,6 +51,10 @@ const User = mongoose.model('users',
     address: {
       type: String,
       required: false
+    },
+    hashed_password: {
+      type: String,
+      required: true
     }
   }, schemaOptions)
 )
