@@ -52,7 +52,7 @@ const User = mongoose.model('users',
       type: String,
       required: false
     },
-    hashed_password: {
+    password: {
       type: String,
       required: true
     }
