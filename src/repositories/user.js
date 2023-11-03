@@ -4,7 +4,17 @@ import bcrypt from 'bcrypt'
 
 const login = async (email, password) => {
   // const isMatched = await bcrypt.compare(password, user.password)
-  console.log('login repo')
+  const user = await User.findOne({email}).exec()
+  if (!user) {
+    throw new StandardError('failed to login')
+  }
+
+  const isMatch = await bcrypt.compare(password, user.password)
+  if (!isMatch) {
+    throw new StandardError('failed to login')
+  }
+
+  return user
 }
 
 const register = async ({ name, email, password, phone, address, gender }) => {

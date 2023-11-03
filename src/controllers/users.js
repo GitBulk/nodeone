@@ -2,7 +2,7 @@ import { validationResult } from 'express-validator'
 import { userRepository } from '../repositories/index.js'
 import { EventEmitter } from 'node:events'
 import HttpStatusCode from '../helpers/http-status-code.js'
-import _ from 'lodash'
+import UserPresenter from '../presenters/user.js'
 
 const userEvent = new EventEmitter()
 userEvent.on('event.user.register', (params) => {
@@ -24,8 +24,12 @@ const login = async (req, res) => {
   }
 
   const { email, password } = req.body
-  await userRepository.login(email, password)
-  res.status(HttpStatusCode.OK).json({ message: 'login successfully' })
+  try {
+    const user = await userRepository.login(email, password)
+    res.status(HttpStatusCode.OK).json({ message: 'login successfully', data: new UserPresenter(user).toHash() })
+  } catch (error) {
+    res.status(HttpStatusCode.NOT_FOUND).json({ message: error.toString() })
+  }
 }
 
 const register = async (req, res) => {
@@ -38,8 +42,7 @@ const register = async (req, res) => {
   userEvent.emit('event.user.register', { name, email })
   try {
     const user = await userRepository.register({ name, email, password, phone, address, gender })
-    const userWithoutPassword = _.omit(user.toObject(), 'password')
-    res.status(HttpStatusCode.OK).json({ message: 'register successfully', data: userWithoutPassword })
+    res.status(HttpStatusCode.OK).json({ message: 'register successfully', data: new UserPresenter(user).toHash() })
   } catch (error) {
     res.status(HttpStatusCode.INTERNAL_SERVER_ERROR).json({ message: error.toString() })
   }
