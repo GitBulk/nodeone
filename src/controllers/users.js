@@ -3,6 +3,7 @@ import { userRepository } from '../repositories/index.js'
 import { EventEmitter } from 'node:events'
 import HttpStatusCode from '../helpers/http-status-code.js'
 import UserPresenter from '../presenters/user.js'
+import jwt from 'jsonwebtoken'
 
 const userEvent = new EventEmitter()
 userEvent.on('event.user.register', (params) => {
@@ -26,7 +27,13 @@ const login = async (req, res) => {
   const { email, password } = req.body
   try {
     const user = await userRepository.login(email, password)
-    res.status(HttpStatusCode.OK).json({ message: 'login successfully', data: new UserPresenter(user).toHash() })
+    const userPresenter = new UserPresenter(user).toHash()
+    const token = jwt.sign({ payload: userPresenter }, process.env.JWT_SECRET, { expiresIn: '1 days' })
+    const result = {
+      ...userPresenter,
+      token: token
+    }
+    res.status(HttpStatusCode.OK).json({ message: 'login successfully', data: result })
   } catch (error) {
     res.status(HttpStatusCode.NOT_FOUND).json({ message: error.toString() })
   }
