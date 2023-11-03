@@ -33,10 +33,14 @@ const register = async (req, res) => {
     return res.status(HttpStatusCode.BAD_REQUEST).json({ errors: errors.array() })
   }
 
-  const { name, email, password, phone, address } = req.body
-  await userRepository.register({ name, email, password, phone, address })
+  const { name, email, password, phone, address, gender } = req.body
   userEvent.emit('event.user.register', { name, email })
-  res.status(HttpStatusCode.OK).json({ message: 'register successfully' })
+  try {
+    let user = await userRepository.register({ name, email, password, phone, address, gender })
+    res.status(HttpStatusCode.OK).json({ message: 'register successfully', data: user })
+  } catch (error) {
+    res.status(HttpStatusCode.INTERNAL_SERVER_ERROR).json({ message: error.toString() })
+  }
 }
 
 export default {

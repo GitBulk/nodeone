@@ -1,6 +1,14 @@
 import { ObjectId } from 'bson'
 import mongoose, { Schema } from 'mongoose'
-import isEmail from 'validator/lib/isEmail'
+import isEmail from 'validator/lib/isEmail.js'
+
+const schemaOptions = {
+  timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' },
+}
+
+// const schemaOptions = {
+//   timestamps: true
+// }
 
 const User = mongoose.model('users',
   new Schema({
@@ -44,7 +52,7 @@ const User = mongoose.model('users',
       type: String,
       required: false
     }
-  })
+  }, schemaOptions)
 )
 
 export default User
