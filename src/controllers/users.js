@@ -15,7 +15,14 @@ const getUsers = async (req, res) => {
 }
 
 async function getUser(req, res) {
-  res.send('GET user')
+  const id = req.params.id
+  try {
+    const user = await userRepository.get(id)
+    const userPresenter = new UserPresenter(user).toHash()
+    res.status(HttpStatusCode.OK).json({ data: userPresenter })
+  } catch (error) {
+    res.status(HttpStatusCode.NOT_FOUND).json({ message: error.toString() })
+  }
 }
 
 const login = async (req, res) => {
@@ -28,7 +35,7 @@ const login = async (req, res) => {
   try {
     const user = await userRepository.login(email, password)
     const userPresenter = new UserPresenter(user).toHash()
-    const token = jwt.sign({ payload: userPresenter }, process.env.JWT_SECRET, { expiresIn: '1 days' })
+    const token = jwt.sign({ data: userPresenter }, process.env.JWT_SECRET, { expiresIn: '1h' })
     const result = {
       ...userPresenter,
       token: token

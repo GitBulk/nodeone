@@ -2,6 +2,15 @@ import { User } from '../models/index.js'
 import StandardError from '../exceptions/standard-error.js'
 import bcrypt from 'bcrypt'
 
+const get = async (id) => {
+  const user = await User.findById(id).exec()
+  if (!user) {
+    throw new StandardError(`Not found user ${id}`)
+  }
+
+  return user
+}
+
 const login = async (email, password) => {
   // const isMatched = await bcrypt.compare(password, user.password)
   const user = await User.findOne({email}).exec()
@@ -42,6 +51,7 @@ const register = async ({ name, email, password, phone, address, gender }) => {
 }
 
 export default {
+  get,
   login,
   register
 }
