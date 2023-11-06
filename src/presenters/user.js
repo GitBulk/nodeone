@@ -6,6 +6,6 @@ export default class UserPresenter {
   }
 
   toHash() {
-    return _.omit(this.user.toObject(), 'password')
+    return _.omit(this.user.toObject(), 'password', 'updated_at')
   }
 }
