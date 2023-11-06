@@ -11,7 +11,12 @@ userEvent.on('event.user.register', (params) => {
 })
 
 const getUsers = async (req, res) => {
-  res.send('GET users')
+  try {
+    const users = await userRepository.getUsers()
+    res.status(HttpStatusCode.OK).json({ data: users })
+  } catch (error) {
+    res.status(HttpStatusCode.INTERNAL_SERVER_ERROR).json({ message: error.toString() })
+  }
 }
 
 async function getUser(req, res) {

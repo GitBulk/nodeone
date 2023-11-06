@@ -1,6 +1,29 @@
 import { User } from '../models/index.js'
 import StandardError from '../exceptions/standard-error.js'
 import bcrypt from 'bcrypt'
+import { Types } from 'mongoose'
+import { faker } from '@faker-js/faker'
+
+const getUsers = async () => {
+  let data = []
+  for (let i = 0; i < 10; i++) {
+    data.push({
+      id: new Types.ObjectId(),
+      name: faker.person.fullName(),
+      email: faker.internet.email,
+      languages: [
+        faker.helpers.arrayElement(['vi', 'us']),
+        faker.helpers.arrayElement(['fr', 'de'])
+      ],
+      gender: faker.helpers.arrayElement(['male', 'female']),
+      phone_number: faker.phone.number(),
+      address: faker.location.streetAddress(),
+      created_at: faker.date.past().toISOString()
+    })
+  }
+
+  return data
+}
 
 const get = async (id) => {
   const user = await User.findById(id).exec()
@@ -51,6 +74,7 @@ const register = async ({ name, email, password, phone, address, gender }) => {
 }
 
 export default {
+  getUsers,
   get,
   login,
   register

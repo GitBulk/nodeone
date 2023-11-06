@@ -19,5 +19,8 @@
     "debug": "node inspect server.js"
   },
   "author": "Gitbulk",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^8.2.0"
+  }
 }
