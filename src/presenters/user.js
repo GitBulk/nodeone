@@ -5,7 +5,9 @@ export default class UserPresenter {
     this.user = user
   }
 
-  toHash() {
-    return _.omit(this.user.toObject(), 'password', 'updated_at')
+  toJsonData() {
+    let data = _.omit(this.user.toObject(), 'password', 'updated_at', '_id')
+    data.id = this.user._id
+    return data
   }
 }

@@ -1,16 +1,14 @@
 import { User } from '../models/index.js'
 import StandardError from '../exceptions/standard-error.js'
 import bcrypt from 'bcrypt'
-import { Types } from 'mongoose'
 import { faker } from '@faker-js/faker'
 
 const getUsers = async () => {
   let data = []
   for (let i = 0; i < 10; i++) {
-    data.push({
-      id: new Types.ObjectId(),
+    data.push(new User({
       name: faker.person.fullName(),
-      email: faker.internet.email,
+      email: faker.internet.email(),
       languages: [
         faker.helpers.arrayElement(['vi', 'us']),
         faker.helpers.arrayElement(['fr', 'de'])
@@ -19,8 +17,7 @@ const getUsers = async () => {
       phone_number: faker.phone.number(),
       address: faker.location.streetAddress(),
       created_at: faker.date.past().toISOString()
-    })
-  }
+    }))  }
 
   return data
 }
