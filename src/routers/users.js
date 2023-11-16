@@ -4,6 +4,7 @@ import { usersController } from '../controllers/index.js'
 
 const router = express.Router()
 
+router.get('/test_data', usersController.testData)
 router.get('/', usersController.getUsers)
 router.get('/:id', usersController.getUser)
 router.post('/login',
@@ -12,5 +13,4 @@ router.post('/login',
   usersController.login
 )
 router.post('/register', usersController.register)
-
 export default router

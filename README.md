@@ -1,4 +1,3 @@
-create feature/practical_microservices from feature/demo_jwt
+Cách Build và Chạy Docker cho Node JS
 
-Book: Practical Microservices Build Event-Driven Architectures with Event Sourcing and CQRS
-Author: Ethan Garofolo
+Source: https://www.youtube.com/watch?v=8p_O5COZGqk&ab_channel=VietTran

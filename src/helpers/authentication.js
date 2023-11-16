@@ -3,7 +3,7 @@ import HttpStatusCode from './http-status-code.js'
 
 export default function verifyJwtToken(req, res, next) {
   const url = req.url.toLowerCase().trim()
-  if (url == '/users/login' || url == '/users/register') {
+  if (['/users/login', '/users/register', '/users/test_data'].includes(url)) {
     next()
     return
   }
@@ -19,7 +19,6 @@ export default function verifyJwtToken(req, res, next) {
     req.user = jwtObject.data
     next()
   } catch (error) {
-    debugger
     res.status(HttpStatusCode.BAD_REQUEST).json({ message: 'Invalid or expired token' })
   }
 }

@@ -68,9 +68,14 @@ const register = async (req, res) => {
   }
 }
 
+const testData = async (req, res) => {
+  await getUsers(req, res)
+}
+
 export default {
   getUsers,
   getUser,
   login,
-  register
+  register,
+  testData
 }
